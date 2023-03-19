@@ -1,3 +1,5 @@
+# CGLNaming
+This repository contains data and code for our ICECCS 2022 paper "Combining Global and Local Representations of Source Code for Method Naming". 
 
 ###Data:
 We already put the processed data in the compressed package. You can obtain the code that we parse Java code from [here](https://github.com/zc-work/java2graph)
