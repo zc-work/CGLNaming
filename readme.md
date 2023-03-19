@@ -1,12 +1,12 @@
 # CGLNaming
 This repository contains data and code for our ICECCS 2022 paper "Combining Global and Local Representations of Source Code for Method Naming". 
 
-###Data:
+### Data:
 We already put the processed data in the compressed package. You can obtain the code that we parse Java code from [here](https://github.com/zc-work/java2graph)
 
 You can also get the processed data from [google drive](https://zhoucong-my.sharepoint.com/:f:/g/personal/o_xoffice_top/ElKSjYlRsntBuLLRoP3zQbEBjjJ-i-tbyg_FiPx_GqUErg?e=diOQIm).
 
-###Training/Testing Models:
+### Training/Testing Models:
 We only provide our `CD` model code here. Other models can be easily obtained by modifying this basis.
 
 
@@ -28,7 +28,7 @@ where, 0 means GPU_ID.
 - If GPU_ID is set to one specific number, only one GPU will be used.
 - If GPU_ID is set to multiple numbers (e.g., 0,1,2), then parallel computing will be used.
 
-###Generated log files
+### Generated log files
 While training and evaluating the models, a list of files are generated inside a `DATASET_NAME-tmp` directory. The files are as follows.
 - **MODEL_NAME.mdl**
   - Model file containing the parameters of the best model.
